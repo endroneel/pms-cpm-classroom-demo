@@ -1,3 +1,5 @@
+# App runtime dependencies; keep this file beside streamlit_app.py.
+# Refreshed to request a clean dependency installation on Community Cloud.
 streamlit==1.63.0
 networkx==3.6.1
 pandas==2.2.3

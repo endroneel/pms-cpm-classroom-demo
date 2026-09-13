@@ -1,7 +1,9 @@
 # App runtime dependencies; keep this file beside streamlit_app.py.
-# Refreshed to request a clean dependency installation on Community Cloud.
+# Use prebuilt packages to avoid CPU-intensive compilation on Community Cloud.
+--only-binary=:all:
 streamlit==1.63.0
 networkx==3.6.1
-pandas==2.2.3
+# pandas 2.3.3 adds Python 3.14 support.
+pandas==2.3.3
 plotly==7.0.0
 numpy==2.3.5

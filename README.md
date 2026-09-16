@@ -1,3 +1,11 @@
+# CPM / PERT Classroom Lab — HTML version
+
+The browser-only app is in **[docs/index.html](docs/index.html)**. Download the repository ZIP, extract it, and open that file in a browser. It works offline with no installations.
+
+To host it, open **Settings → Pages → Deploy from a branch**, select **main /docs**, and save. See [HTML deployment guide](docs/README.md).
+
+## Original Streamlit version
+
 # CPM / PERT Classroom Demonstrator
 
 Interactive project-management teaching app with editable activities, an Activity-on-Node network, CPM forward and backward passes, slack, what-if scenarios, and PERT/Monte Carlo simulation.
